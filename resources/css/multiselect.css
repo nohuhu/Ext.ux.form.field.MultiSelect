@@ -1,0 +1,105 @@
+.ux-selectorpicker-outer {
+	border:1px solid #1b376c !important;
+	background-color:#FFF;
+}
+
+.ux-selectorpicker-header {
+    font: normal 11px tahoma, arial, verdana, sans-serif;
+    border-bottom:1px solid #b2d1f5;
+    background-image:none;
+
+    height: 26px;
+
+    color: white;
+    background-color:#23427c;
+    background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #264888), color-stop(100%, #1f3a6c));
+    background-image:-webkit-linear-gradient(top, #264888,#1f3a6c);
+    background-image:-moz-linear-gradient(top, #264888,#1f3a6c);
+    background-image:-o-linear-gradient(top, #264888,#1f3a6c);
+    background-image:-ms-linear-gradient(top, #264888,#1f3a6c);
+    background-image:linear-gradient(top, #264888,#1f3a6c)
+}
+
+.ux-selectorpicker-header a {
+    font: normal 9px tahoma, arial, verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin: 2px 0 0 8px;
+}
+
+.ux-selectorpicker-header-item-selector {
+    height: 26px;
+    width: 201px;
+    text-align: left;
+    float: left;
+    padding: 4px 8px 4px 8px;
+}
+
+.ux-selectorpicker-header-item-selected {
+    height: 26px;
+    width: 201px;
+    text-align: left;
+    float: left;
+    padding: 4px 8px 4px 8px;
+}
+
+.ux-selectorpicker-selector-list {
+    float: left;
+}
+
+.ux-selectorpicker-selected-list {
+    float: left;
+}
+
+.ux-selectorpicker-divider {
+    width: 1px !important;
+    height: 200px !important;
+    background: #23427c;
+    float: left;
+}
+
+.ux-selectorpicker-buttons-multi {
+    border-top:1px solid #b2d1f5;
+    background-color:#dfecfb;
+    background-image:linear-gradient(top, #dee8f5,#d1dff0 49%,#c7d8ed 51%,#cbdaee);
+    text-align:center;
+    height: 30px;
+    float: left;
+    width: 404px;
+}
+
+.ux-selectorpicker-buttons-single {
+    border-top:1px solid #b2d1f5;
+    background-color:#dfecfb;
+    background-image:linear-gradient(top, #dee8f5,#d1dff0 49%,#c7d8ed 51%,#cbdaee);
+    text-align:center;
+    height: 30px;
+    float: left;
+    width: 202px;
+}
+
+.ux-selectorpicker-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 10%;
+}
+
+.ux-selectorpicker-row-plus {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/plus_12.png');
+    background-repeat: no-repeat;
+}
+
+.ux-selectorpicker-row-minus {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/minus_12.png');
+    background-repeat: no-repeat;
+}
+
+.ux-selectorpicker-row-item {
+    padding-left: 4px;
+    text-align: left;
+}

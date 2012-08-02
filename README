@@ -1,0 +1,45 @@
+Ext.ux.form.field.MultiSelect
+============================
+
+This extension implements a form field that allows entering multiple
+values and value ranges of arbitrary type, with drop-down picker that
+provides live search and visual item selection.
+
+Features:
+    - No limit for number of items and item ranges
+    - Separate settings for input format, display format and submit
+      format of single and range values
+    - Fully themed with CSS sheet provided
+    - Two modes of operation: multiple values and single value
+    - Drop-down picker with live search and smart matching
+    - Optimized for large datasets
+    - Accepts preconfigured Store with the list of values to display
+    - Supports lazy Store population; data is loaded only when picker
+      is activated
+    - Configurable column definition; no arbitrary limit on number
+      and width of columns
+    - Press enter in picker or click plus icon to select single item
+    - Tab to selected list and press enter or click minus icon
+      to unselect an item
+    - Ctrl-Enter in picker confirms selection
+    - Ctrl-backspace in picker clears selection
+    - Escape in picker to cancel selection
+
+Tested in:
+    - MSIE 6+
+    - Chrome 6+
+    - Firefox 3.6+
+    - Opera 11
+    - Safari 4+
+
+For usage, see demo application.
+
+This extension is released under GPL 3.0 license.
+
+Commercial use is permitted to the extent that the code/component(s) do NOT
+become part of another Open Source or Commercially licensed development library or toolkit without explicit permission.
+
+XRegExp library is (c) 2007-2012 Steven Levithan, released under MIT
+license. Packaged as dependency.
+
+Copyright (c) 2011-2012 by Alexander Tokarev, <nohuhu@nohuhu.org>.
